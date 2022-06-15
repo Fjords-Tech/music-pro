@@ -17,7 +17,7 @@ new Vue({
           url: "https://fjordservers.com",
           favorited: true
         },
-                {
+        {
           name: "Asian Trilogie 2",
           artist: "Fjord",
           cover: "https://github.com/Fjords-Tech/osbrncdbcbdfg/raw/main/Screen%20Shot%202022-06-15%20at%206.50.50%20PM.png",
