@@ -17,6 +17,14 @@ new Vue({
           url: "https://fjordservers.com",
           favorited: true
         },
+                {
+          name: "Asian Trilogie 2",
+          artist: "Fjord",
+          cover: "https://github.com/Fjords-Tech/osbrncdbcbdfg/raw/main/Screen%20Shot%202022-06-15%20at%206.50.50%20PM.png",
+          source: "https://github.com/Fjords-Tech/osbrncdbcbdfg/raw/main/Asian%20Trilogie2.m4a",
+          url: "https://fjordservers.com",
+          favorited: true
+        },
         {
           name: "Music Pro Event june 15th",
           artist: "Music Pro Event june 15th",
