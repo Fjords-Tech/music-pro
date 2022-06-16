@@ -9,6 +9,7 @@ new Vue({
       currentTime: null,
       isTimerPlaying: false,
       tracks: [
+        
         {
           name: "Asian Trilogie 1",
           artist: "Fjord",
