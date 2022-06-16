@@ -25,6 +25,14 @@ new Vue({
           url: "https://fjordservers.com",
           favorited: true
         },
+        {
+          name: "Asian Trilogie 3",
+          artist: "Fjord",
+          cover: "https://github.com/Fjords-Tech/osbrncdbcbdfg/raw/main/Screen%20Shot%202022-06-16%20at%2011.21.48%20AM.png",
+          source: "https://github.com/Fjords-Tech/osbrncdbcbdfg/raw/main/Asian%20Trilogie3.m4a",
+          url: "https://fjordservers.com",
+          favorited: true
+        },
       ],
       currentTrack: null,
       currentTrackIndex: 0,
