@@ -9,7 +9,6 @@ new Vue({
       currentTime: null,
       isTimerPlaying: false,
       tracks: [
-        
         {
           name: "Asian Trilogie 1",
           artist: "Fjord",
@@ -26,6 +25,7 @@ new Vue({
           url: "https://fjordservers.com",
           favorited: true
         },
+      ],
       currentTrack: null,
       currentTrackIndex: 0,
       transitionName: null
