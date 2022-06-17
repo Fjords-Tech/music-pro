@@ -33,6 +33,14 @@ new Vue({
           url: "https://fjordservers.com",
           favorited: true
         },
+                {
+          name: "A night in Egypt",
+          artist: "Fjord",
+          cover: "https://github.com/Fjords-Tech/osbrncdbcbdfg/raw/main/Music%20pro.jpeg",
+          source: "https://github.com/Fjords-Tech/osbrncdbcbdfg/raw/main/A%20night%20in%20Egypt.m4a",
+          url: "https://fjordservers.com",
+          favorited: true
+        },
       ],
       currentTrack: null,
       currentTrackIndex: 0,
@@ -149,8 +157,7 @@ new Vue({
       vm.nextTrack();
       this.isTimerPlaying = true;
     };
-
-    // this is optional (for preload covers)
+    
     for (let index = 0; index < this.tracks.length; index++) {
       const element = this.tracks[index];
       let link = document.createElement('link');
